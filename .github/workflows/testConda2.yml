@@ -4,18 +4,12 @@ on:
 
 jobs:
   my-job:
-    name: testing conda
+    name: testing conda activate
     runs-on: ubuntu-latest
     steps:
-      - name: initialize conda
-        run: conda init bash # FINISH THIS
-      - name: restart shell
-        run: source ~/.bashrc
+#       - name: initialize conda
+#         run: "conda init bash" # FINISH THIS
+#       - name: restart shell
+#         run: "source ~/.bashrc"
       - name: activate conda
-        run: "conda activate base"
-      - name: install dedalus
-        run: "bash install_dedalus3_conda.sh"
-      - name: activate dedalus
-        run: conda activate dedalus3
-      - name: run dedalus
-        run: python3 -m dedalus test
+        run: "conda activate"
