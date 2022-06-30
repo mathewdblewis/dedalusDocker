@@ -7,7 +7,13 @@ jobs:
     name: testing conda
     runs-on: ubuntu-latest
     steps:
-      - name: do I have python and conda?
-        run: "conda"
-        
-        
+      - name: curl dedalus
+        run: "curl https://raw.githubusercontent.com/DedalusProject/dedalus_conda/master/install_dedalus3_conda.sh --output install_dedalus3_conda.sh"
+      - name: activate conda
+        run: "conda activate base"
+      - name: install dedalus
+        run: "bash install_dedalus3_conda.sh"
+      - name: activate dedalus
+        run: conda activate dedalus3
+      - name: run dedalus
+        run: python3 -m dedalus test
