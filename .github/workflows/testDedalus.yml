@@ -7,7 +7,7 @@ jobs:
     name: Run MATLAB Script
     runs-on: ubuntu-latest
     steps:
-      - name: do I have docker?
-        run: "docker --version"
+      - name: do I have python and conda?
+        run: "python3 -V"
         
         
