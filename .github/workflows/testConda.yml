@@ -1,4 +1,4 @@
-name: testing docker
+name: testing conda
 on:
   workflow_dispatch:
 
