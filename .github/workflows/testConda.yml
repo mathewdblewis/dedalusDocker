@@ -10,9 +10,9 @@ jobs:
       - name: curl dedalus
         run: "curl https://raw.githubusercontent.com/DedalusProject/dedalus_conda/master/install_dedalus3_conda.sh --output install_dedalus3_conda.sh"
       - name: initialize conda
-        run: conda init bash
-      - name: restart shell
-        run: source ~/.bashrc
+        run: "conda init bash"
+#       - name: restart shell
+#         run: "source ~/.bashrc"
       - name: activate conda
         run: "conda activate base"
       - name: install dedalus
