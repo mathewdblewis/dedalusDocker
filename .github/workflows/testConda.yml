@@ -4,10 +4,10 @@ on:
 
 jobs:
   my-job:
-    name: Run MATLAB Script
+    name: testing conda
     runs-on: ubuntu-latest
     steps:
       - name: do I have python and conda?
-        run: "python3 -V"
+        run: "conda"
         
         
