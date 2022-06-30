@@ -12,7 +12,7 @@ jobs:
       - name: initialize conda
         run: conda init bash
       - name: restart shell
-        run: exec bash -l
+        run: source ~/.bashrc
       - name: activate conda
         run: "conda activate base"
       - name: install dedalus
