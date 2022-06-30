@@ -1,4 +1,4 @@
-name: Run MATLAB Script on github runner 
+name: testing docker
 on:
   workflow_dispatch:
 
