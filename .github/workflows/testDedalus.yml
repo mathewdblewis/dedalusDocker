@@ -1,0 +1,13 @@
+name: testing docker
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: Run MATLAB Script
+    runs-on: ubuntu-latest
+    steps:
+      - name: do I have docker?
+        run: "docker --version"
+        
+        
