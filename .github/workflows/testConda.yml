@@ -13,8 +13,8 @@ jobs:
         run: "conda init bash"
 #       - name: restart shell
 #         run: "source ~/.bashrc"
-#       - name: activate conda
-#         run: "conda activate base"
+      - name: activate conda
+        run: "conda activate base"
       - name: install dedalus
         run: "bash install_dedalus3_conda.sh"
       - name: activate dedalus
