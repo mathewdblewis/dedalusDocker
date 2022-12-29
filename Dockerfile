@@ -1,4 +1,4 @@
 FROM python:3.7-slim
-COPY test.py ./
+COPY app.py ./
 RUN pip install numpy
-CMD [ "python", "./test.py"]
+CMD [ "python", "./app.py"]
