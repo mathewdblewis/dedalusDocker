@@ -1,4 +1,4 @@
-name: build docker image containing numpy
+name: run artifact image
 on:
   workflow_dispatch:
 
