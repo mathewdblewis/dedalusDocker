@@ -1,0 +1,15 @@
+name: build docker image containing numpy
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: build docker image containing numpy
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: build the image
+        run: "docker image build -t build1 ."
+      - name: list the files and see the built image
+        run: "ls -ltr"
