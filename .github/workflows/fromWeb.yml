@@ -3,7 +3,7 @@ name: GH action from web
 # see here:  https://autobencoder.com/2020-08-24-conda-actions/
 # under 'ubuntu acton'
 
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   build-linux:
