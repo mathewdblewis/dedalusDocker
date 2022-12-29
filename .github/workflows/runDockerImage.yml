@@ -1,0 +1,15 @@
+name: run docker image
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: test if we have docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: do I have docker?
+        run: "docker --version"
+      - name: load the tar file
+        run: "docker load < eg.tar"
+        
+        
