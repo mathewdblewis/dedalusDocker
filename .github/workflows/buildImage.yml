@@ -12,7 +12,7 @@ jobs:
       - name: build and save the image
         run: docker image build -t build1 .; docker save build1 > savedImage.tar
       - name: partition the image
-        run: python partition.py -s 1.8 -p -i savedImage.tar -o savedImageParts; rm savedImage.tar
+        run: python partition.py -s 1.8 -m p -i savedImage.tar -o savedImageParts; rm savedImage.tar
       - name: push
         run: git add savedImage.tar; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
 
