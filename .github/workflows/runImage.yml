@@ -1,4 +1,4 @@
-name: run the docker image
+name: run the image
 on:
   workflow_dispatch:
 
