@@ -1,0 +1,18 @@
+name: run docker image
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: test if we have docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: construct the tar file
+        run: cat eg0.tar eg1.tar eg2.tar eg3.tar eg4.tar eg5.tar eg6.tar eg7.tar > eg.tar
+      - name: load the tar file
+        run: "docker load < eg.tar"
+      - name: run the loaded image
+        run: "docker run pyimg15"
+
