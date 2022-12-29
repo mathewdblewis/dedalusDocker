@@ -4,7 +4,7 @@ on:
 
 jobs:
   my-job:
-    name: Run MATLAB Script
+    name: test if I have docker
     runs-on: ubuntu-latest
     steps:
       - name: do I have docker?
