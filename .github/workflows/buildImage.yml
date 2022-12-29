@@ -11,3 +11,8 @@ jobs:
         uses: actions/checkout@v2.3.4
       - name: build and save the image
         run: "docker image build -t build1 .; docker save build1 > savedImage.tar; ls -sh savedImage.tar"
+      - name: Archive the image
+        uses: actions/upload-artifact@v3
+        with:
+          name: image
+          path: savedImage.tar
