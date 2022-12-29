@@ -13,6 +13,8 @@ jobs:
         run: echo asdf > dummy.txt
       - name: add
         run: git add -A
+      - name: provide ID
+        run: git config --global user.email 'you@example.com'; git config --global user.name "Your Name"
       - name: commit
         run: git commit -m '.'
       - name: push
