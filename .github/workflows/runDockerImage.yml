@@ -1,16 +1,16 @@
-name: run docker image
+name: run the docker image
 on:
   workflow_dispatch:
 
 jobs:
   my-job:
-    name: test if we have docker
+    name: run the docker image
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
         uses: actions/checkout@v2.3.4
       - name: assemble the tar file
-        run: python partition a 1.8 savedImageParts image.tar
+        run: python partition.py a 1.8 savedImageParts image.tar
       - name: load the tar file
         run: docker load < image.tar
       - name: run the loaded image
