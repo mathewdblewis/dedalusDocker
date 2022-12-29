@@ -12,5 +12,5 @@ jobs:
       - name: create dummy file
         run: echo asdf > dummy.txt
       - name: push
-        run: git add -A; git config --global user.email ''; git config --global user.name ''; git commit -m '.'; git push origin main
+        run: git add -A; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
 
