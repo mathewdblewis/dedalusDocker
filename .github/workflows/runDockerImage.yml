@@ -13,5 +13,6 @@ jobs:
         run: "docker --version"
       - name: load the tar file
         run: "docker load < eg.tar"
-        
+      - name: run the loaded image
+        run: "docker run pyimg15"
         
