@@ -10,7 +10,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v2.3.4
       - name: create dummy file
-        run: echo asdf > dummy.txt
+        run: echo asdf > dummy2.txt
       - name: push
         run: git add -A; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
 
