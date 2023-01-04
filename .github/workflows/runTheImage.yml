@@ -1,0 +1,17 @@
+name: run the docker image
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: run the docker image
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: run getRes.sh
+        run: chmod 777 getRes.sh; ./getRes.sh
+      - name: push
+        run: git add output; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
+        
+        
