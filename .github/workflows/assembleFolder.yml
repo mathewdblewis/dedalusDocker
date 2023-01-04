@@ -13,7 +13,9 @@ jobs:
         run: mkdir parts; mv 1* parts; mv 2 parts; mv 3 parts; mv 4 parts; mv 5 parts; mv 6 parts; mv 7 parts; mv 8 parts; mv 9 parts; mv 0 parts;
       - name: assemble the tar file
         run: python partition.py a 25.6 parts folder.tar
+      - name: unzip the folder
+        run: tar -xf folder.tar
       - name: push
-        run: git add folder.tar; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
+        run: git add files; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
         
         
