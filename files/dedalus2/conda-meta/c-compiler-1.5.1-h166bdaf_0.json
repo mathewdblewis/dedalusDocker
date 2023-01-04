@@ -1,0 +1,35 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils",
+    "gcc",
+    "gcc_linux-64 10.*"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/c-compiler-1.5.1-h166bdaf_0",
+  "features": "",
+  "files": [],
+  "fn": "c-compiler-1.5.1-h166bdaf_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/c-compiler-1.5.1-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "0667d7da14e682c9d07968601f6233ef",
+  "name": "c-compiler",
+  "package_tarball_full_path": "/opt/conda/pkgs/c-compiler-1.5.1-h166bdaf_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "42ba27f972662bf1f8afd0c087c7f10affe251afa32da0a8ffc871b06ed58b53",
+  "size": 5443,
+  "subdir": "linux-64",
+  "timestamp": 1666132082892,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/c-compiler-1.5.1-h166bdaf_0.tar.bz2",
+  "version": "1.5.1"
+}

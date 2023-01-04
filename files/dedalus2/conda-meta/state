@@ -1,0 +1,1 @@
+{"env_vars": {"OMP_NUM_THREADS": "1", "NUMEXPR_MAX_THREADS": "1"}}

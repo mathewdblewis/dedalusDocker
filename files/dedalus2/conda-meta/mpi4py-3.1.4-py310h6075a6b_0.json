@@ -1,0 +1,601 @@
+{
+  "build": "py310h6075a6b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "openmpi >=4.1.4,<5.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/mpi4py-3.1.4-py310h6075a6b_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/LICENSE.rst",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/mpi4py/MPI.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/mpi4py/MPI.pxd",
+    "lib/python3.10/site-packages/mpi4py/MPI.pyi",
+    "lib/python3.10/site-packages/mpi4py/__init__.pxd",
+    "lib/python3.10/site-packages/mpi4py/__init__.py",
+    "lib/python3.10/site-packages/mpi4py/__init__.pyi",
+    "lib/python3.10/site-packages/mpi4py/__main__.py",
+    "lib/python3.10/site-packages/mpi4py/__main__.pyi",
+    "lib/python3.10/site-packages/mpi4py/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/__pycache__/bench.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/__pycache__/run.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/bench.py",
+    "lib/python3.10/site-packages/mpi4py/bench.pyi",
+    "lib/python3.10/site-packages/mpi4py/dl.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/mpi4py/dl.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/__init__.py",
+    "lib/python3.10/site-packages/mpi4py/futures/__init__.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/__main__.py",
+    "lib/python3.10/site-packages/mpi4py/futures/__main__.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_base.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_core.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_lib.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/aplus.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/pool.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/__pycache__/server.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/futures/_base.py",
+    "lib/python3.10/site-packages/mpi4py/futures/_core.py",
+    "lib/python3.10/site-packages/mpi4py/futures/_core.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/_lib.py",
+    "lib/python3.10/site-packages/mpi4py/futures/_lib.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/aplus.py",
+    "lib/python3.10/site-packages/mpi4py/futures/aplus.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/pool.py",
+    "lib/python3.10/site-packages/mpi4py/futures/pool.pyi",
+    "lib/python3.10/site-packages/mpi4py/futures/server.py",
+    "lib/python3.10/site-packages/mpi4py/futures/server.pyi",
+    "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi.pxi",
+    "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.MPI.h",
+    "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.MPI_api.h",
+    "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.h",
+    "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.i",
+    "lib/python3.10/site-packages/mpi4py/lib-pmpi/libmpe.so",
+    "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt-hyb.so",
+    "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt-mpi.so",
+    "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt.so",
+    "lib/python3.10/site-packages/mpi4py/libmpi.pxd",
+    "lib/python3.10/site-packages/mpi4py/mpi.cfg",
+    "lib/python3.10/site-packages/mpi4py/py.typed",
+    "lib/python3.10/site-packages/mpi4py/run.py",
+    "lib/python3.10/site-packages/mpi4py/run.pyi",
+    "lib/python3.10/site-packages/mpi4py/util/__init__.py",
+    "lib/python3.10/site-packages/mpi4py/util/__init__.pyi",
+    "lib/python3.10/site-packages/mpi4py/util/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/util/__pycache__/dtlib.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/util/__pycache__/pkl5.cpython-310.pyc",
+    "lib/python3.10/site-packages/mpi4py/util/dtlib.py",
+    "lib/python3.10/site-packages/mpi4py/util/dtlib.pyi",
+    "lib/python3.10/site-packages/mpi4py/util/pkl5.py",
+    "lib/python3.10/site-packages/mpi4py/util/pkl5.pyi"
+  ],
+  "fn": "mpi4py-3.1.4-py310h6075a6b_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/mpi4py-3.1.4-py310h6075a6b_0",
+    "type": 1
+  },
+  "md5": "5a937ee70049b118ff30abecb89c5ea7",
+  "name": "mpi4py",
+  "package_tarball_full_path": "/opt/conda/pkgs/mpi4py-3.1.4-py310h6075a6b_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d33811fdf300831216aafa9ba3e10917cf59196eeaabc92a179386f088abf154",
+        "sha256_in_prefix": "d33811fdf300831216aafa9ba3e10917cf59196eeaabc92a179386f088abf154",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c972495551084399a8ea75b45b6d26ad301a456d585109da7559ad595b98ee9d",
+        "sha256_in_prefix": "c972495551084399a8ea75b45b6d26ad301a456d585109da7559ad595b98ee9d",
+        "size_in_bytes": 7628
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "faae480b30b7d65807634cd04b0c5bd7d0075b0642b26ee07319b579dcc035b8",
+        "sha256_in_prefix": "faae480b30b7d65807634cd04b0c5bd7d0075b0642b26ee07319b579dcc035b8",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9d3cbf67c8af18407aa85c152e0eff87aaead09b74254e4fcf670bdbf16348c4",
+        "sha256_in_prefix": "9d3cbf67c8af18407aa85c152e0eff87aaead09b74254e4fcf670bdbf16348c4",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3dcb9b81ca02b08716a3e3216bd5222496a81bc04d73a1364bee5740cd104681",
+        "sha256_in_prefix": "3dcb9b81ca02b08716a3e3216bd5222496a81bc04d73a1364bee5740cd104681",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py-3.1.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "87596a8915948f048b3599a725ee63936ea8799f411d8e3b2fc239cac565770d",
+        "sha256_in_prefix": "87596a8915948f048b3599a725ee63936ea8799f411d8e3b2fc239cac565770d",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/MPI.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d745cb7654595ca13f6b758494c3273dcddc511ee9fdb6da5e9fa5a87dc5890b",
+        "sha256_in_prefix": "d745cb7654595ca13f6b758494c3273dcddc511ee9fdb6da5e9fa5a87dc5890b",
+        "size_in_bytes": 1690216
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/MPI.pxd",
+        "path_type": "hardlink",
+        "sha256": "3ac9c9456f10469965366668dce1d16ec9e92171c654872ea02be8741bb6e1a2",
+        "sha256_in_prefix": "3ac9c9456f10469965366668dce1d16ec9e92171c654872ea02be8741bb6e1a2",
+        "size_in_bytes": 3964
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/MPI.pyi",
+        "path_type": "hardlink",
+        "sha256": "8f2ceb68fa3545d821329f21b9e294b4dc91925e57ef81dfc1534d4d1b0daade",
+        "sha256_in_prefix": "8f2ceb68fa3545d821329f21b9e294b4dc91925e57ef81dfc1534d4d1b0daade",
+        "size_in_bytes": 51995
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "ada385100b744e7e5e25e54b45acff177e279b615453865da1966d0d4057f7d8",
+        "sha256_in_prefix": "ada385100b744e7e5e25e54b45acff177e279b615453865da1966d0d4057f7d8",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "134f3a00bee90246aa57bfb1b6c662fc39de8a5bebb6a9f5441b0a9c380c47dc",
+        "sha256_in_prefix": "134f3a00bee90246aa57bfb1b6c662fc39de8a5bebb6a9f5441b0a9c380c47dc",
+        "size_in_bytes": 5279
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "8ecf654c076beefb25d737d56e039664d2ac49139a5935aed654a7e3113dd699",
+        "sha256_in_prefix": "8ecf654c076beefb25d737d56e039664d2ac49139a5935aed654a7e3113dd699",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "24539a864b1b2c399fafd485217a3287f285c016a8cf123a02d0503704cb4e47",
+        "sha256_in_prefix": "24539a864b1b2c399fafd485217a3287f285c016a8cf123a02d0503704cb4e47",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__main__.pyi",
+        "path_type": "hardlink",
+        "sha256": "93582034c7f98792caed105373d848528a53a82277a17569c8623978f368b8ff",
+        "sha256_in_prefix": "93582034c7f98792caed105373d848528a53a82277a17569c8623978f368b8ff",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f647d3d0cbdd7f46b51bc25289e5665d438b6c8491c2988dd656211d4b5d60e7",
+        "sha256_in_prefix": "f647d3d0cbdd7f46b51bc25289e5665d438b6c8491c2988dd656211d4b5d60e7",
+        "size_in_bytes": 5288
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7394303eb2f99c5e6da928c3bbad585bbf16a9afd904271d0620ce96231e4334",
+        "sha256_in_prefix": "7394303eb2f99c5e6da928c3bbad585bbf16a9afd904271d0620ce96231e4334",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__pycache__/bench.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9cf9eef80c5775d400ccf509d8b7f5d74d76bc531895c93f28d36151c4edebc",
+        "sha256_in_prefix": "b9cf9eef80c5775d400ccf509d8b7f5d74d76bc531895c93f28d36151c4edebc",
+        "size_in_bytes": 4330
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/__pycache__/run.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "256fb44cba43ceab2161c8a43e3ff7c4ac85b5706f4ddb6cc31cddfbaa079356",
+        "sha256_in_prefix": "256fb44cba43ceab2161c8a43e3ff7c4ac85b5706f4ddb6cc31cddfbaa079356",
+        "size_in_bytes": 6263
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/bench.py",
+        "path_type": "hardlink",
+        "sha256": "6df81437359a241bce3dcf3420aa9f0c5648595722078620afe4ba4ec1c57d7c",
+        "sha256_in_prefix": "6df81437359a241bce3dcf3420aa9f0c5648595722078620afe4ba4ec1c57d7c",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/bench.pyi",
+        "path_type": "hardlink",
+        "sha256": "f4037521481e7c4602f5a1f88bc6209036e579ef53894a696838310116c80c99",
+        "sha256_in_prefix": "f4037521481e7c4602f5a1f88bc6209036e579ef53894a696838310116c80c99",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/dl.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b7c0e2dde1379dc452c0a72e00f3923def45691b83953fd3e47a6dacccb005aa",
+        "sha256_in_prefix": "b7c0e2dde1379dc452c0a72e00f3923def45691b83953fd3e47a6dacccb005aa",
+        "size_in_bytes": 16480
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/dl.pyi",
+        "path_type": "hardlink",
+        "sha256": "a9fa8daa4dabcc8121a3df466eb0ba91c0d74e807e52c517ac0f5fd9c7bc3887",
+        "sha256_in_prefix": "a9fa8daa4dabcc8121a3df466eb0ba91c0d74e807e52c517ac0f5fd9c7bc3887",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88759dbb5ca9b91747de312200d87b1aaf21e4be082f9c66ac180ea873abf641",
+        "sha256_in_prefix": "88759dbb5ca9b91747de312200d87b1aaf21e4be082f9c66ac180ea873abf641",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "c1b345ec7d97adea84500771b33c21667ff4db5fad1af3d1d04cfefa05d84f71",
+        "sha256_in_prefix": "c1b345ec7d97adea84500771b33c21667ff4db5fad1af3d1d04cfefa05d84f71",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "3046edc905bfdee97198f61220e38d77ea86199cecfcf5412bedf4114a06061a",
+        "sha256_in_prefix": "3046edc905bfdee97198f61220e38d77ea86199cecfcf5412bedf4114a06061a",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__main__.pyi",
+        "path_type": "hardlink",
+        "sha256": "7787f6d901b0a5bd59b4393ed529fbd9fb6fa388a7702e44d890229268f37c92",
+        "sha256_in_prefix": "7787f6d901b0a5bd59b4393ed529fbd9fb6fa388a7702e44d890229268f37c92",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f963ea60fdd72f84e36835151100db307fa7cebbaded8ac20cdeb353c3c114c2",
+        "sha256_in_prefix": "f963ea60fdd72f84e36835151100db307fa7cebbaded8ac20cdeb353c3c114c2",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "085b714445f4f636acc8449a89a0ce45b337ff57f0387ae9882942a9f2de3b48",
+        "sha256_in_prefix": "085b714445f4f636acc8449a89a0ce45b337ff57f0387ae9882942a9f2de3b48",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_base.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "29a70ca87b4718e7cb5b23d71c7d7466f78f86d7e5c10eb2486a73fe8b1abb39",
+        "sha256_in_prefix": "29a70ca87b4718e7cb5b23d71c7d7466f78f86d7e5c10eb2486a73fe8b1abb39",
+        "size_in_bytes": 22028
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c683ccb281584d24ffbf59f960ffb8572a884a5aae782c36d22c794c30a45026",
+        "sha256_in_prefix": "c683ccb281584d24ffbf59f960ffb8572a884a5aae782c36d22c794c30a45026",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/_lib.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "468e78b9b67e4ad6c2a44faf065446511358ffd05b3dc2e0cda5dbf512d5d305",
+        "sha256_in_prefix": "468e78b9b67e4ad6c2a44faf065446511358ffd05b3dc2e0cda5dbf512d5d305",
+        "size_in_bytes": 26937
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/aplus.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7f79b5cd6b98c88a1236cc79c0eb638048e034040ba8da804042e3db0295dd4",
+        "sha256_in_prefix": "e7f79b5cd6b98c88a1236cc79c0eb638048e034040ba8da804042e3db0295dd4",
+        "size_in_bytes": 4539
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/pool.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a9b8cc1e0effc3e4bd50f1b371c78b0a57f8e51ebbbd93f24abd308925c63cc",
+        "sha256_in_prefix": "1a9b8cc1e0effc3e4bd50f1b371c78b0a57f8e51ebbbd93f24abd308925c63cc",
+        "size_in_bytes": 12003
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/__pycache__/server.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "58edf9c45ca9c619ebe3eedf6189f917f9d45ff0f26094b54f5fa4592a384aae",
+        "sha256_in_prefix": "58edf9c45ca9c619ebe3eedf6189f917f9d45ff0f26094b54f5fa4592a384aae",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/_base.py",
+        "path_type": "hardlink",
+        "sha256": "104585df0b00d7a634b838310c6e6ebefeac47df8c7b1076b9e8385437f43765",
+        "sha256_in_prefix": "104585df0b00d7a634b838310c6e6ebefeac47df8c7b1076b9e8385437f43765",
+        "size_in_bytes": 22800
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/_core.py",
+        "path_type": "hardlink",
+        "sha256": "f5db64b57b5a1e0c2c55d09a22af33fabdda36bf7727f09ed65bc6d41a88467d",
+        "sha256_in_prefix": "f5db64b57b5a1e0c2c55d09a22af33fabdda36bf7727f09ed65bc6d41a88467d",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/_core.pyi",
+        "path_type": "hardlink",
+        "sha256": "44fd80dac174b6c591423bb6b8c6e5fd0a25d083ceac9ce7696b70a9e01291a1",
+        "sha256_in_prefix": "44fd80dac174b6c591423bb6b8c6e5fd0a25d083ceac9ce7696b70a9e01291a1",
+        "size_in_bytes": 683
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/_lib.py",
+        "path_type": "hardlink",
+        "sha256": "5fe21f02a8abc0a3fb7d9b490ec15d10c48c806417b428c30f67a5bdf5a7f1c2",
+        "sha256_in_prefix": "5fe21f02a8abc0a3fb7d9b490ec15d10c48c806417b428c30f67a5bdf5a7f1c2",
+        "size_in_bytes": 29085
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/_lib.pyi",
+        "path_type": "hardlink",
+        "sha256": "b43f1126923ec7b5546da2ca6845d810cdf544e244f5714bb90cb0f69a8358a4",
+        "sha256_in_prefix": "b43f1126923ec7b5546da2ca6845d810cdf544e244f5714bb90cb0f69a8358a4",
+        "size_in_bytes": 5118
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/aplus.py",
+        "path_type": "hardlink",
+        "sha256": "941ca9a0ccea50248c94ac47038498fd3fa3bf4bda67a85424db6c15d2280bad",
+        "sha256_in_prefix": "941ca9a0ccea50248c94ac47038498fd3fa3bf4bda67a85424db6c15d2280bad",
+        "size_in_bytes": 4901
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/aplus.pyi",
+        "path_type": "hardlink",
+        "sha256": "0eef2728f1544cffa60d73a82ad1c480b696f78fdba517d233c1755cda2f1209",
+        "sha256_in_prefix": "0eef2728f1544cffa60d73a82ad1c480b696f78fdba517d233c1755cda2f1209",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/pool.py",
+        "path_type": "hardlink",
+        "sha256": "51fc62c6e7bd11de6d42428b6de82bfe93a1ea51cc9d18f472ac192a00aa4aae",
+        "sha256_in_prefix": "51fc62c6e7bd11de6d42428b6de82bfe93a1ea51cc9d18f472ac192a00aa4aae",
+        "size_in_bytes": 12796
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/pool.pyi",
+        "path_type": "hardlink",
+        "sha256": "7d4f41727ef03d8d9e9107817c9403296e263c9f3b45fdbe3bcc48e3316c2516",
+        "sha256_in_prefix": "7d4f41727ef03d8d9e9107817c9403296e263c9f3b45fdbe3bcc48e3316c2516",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/server.py",
+        "path_type": "hardlink",
+        "sha256": "39702f73af6b6864fca1147bb43746d02aaff925c90b67b52fcad1d047e4469c",
+        "sha256_in_prefix": "39702f73af6b6864fca1147bb43746d02aaff925c90b67b52fcad1d047e4469c",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/futures/server.pyi",
+        "path_type": "hardlink",
+        "sha256": "7787f6d901b0a5bd59b4393ed529fbd9fb6fa388a7702e44d890229268f37c92",
+        "sha256_in_prefix": "7787f6d901b0a5bd59b4393ed529fbd9fb6fa388a7702e44d890229268f37c92",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi.pxi",
+        "path_type": "hardlink",
+        "sha256": "ca9f6b399993606acd3f41b93fd6eda78a4c295f2c93b7d2005588260c4be4a5",
+        "sha256_in_prefix": "ca9f6b399993606acd3f41b93fd6eda78a4c295f2c93b7d2005588260c4be4a5",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.MPI.h",
+        "path_type": "hardlink",
+        "sha256": "10ac1e284a1f23f71d1df2f62fed07954b0718003d0a3681ed226a2d18258dd4",
+        "sha256_in_prefix": "10ac1e284a1f23f71d1df2f62fed07954b0718003d0a3681ed226a2d18258dd4",
+        "size_in_bytes": 9043
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.MPI_api.h",
+        "path_type": "hardlink",
+        "sha256": "c9e07643a6712c6e922d8943f44c7be2e6f7934f07dc8d93f340802c1999fda2",
+        "sha256_in_prefix": "c9e07643a6712c6e922d8943f44c7be2e6f7934f07dc8d93f340802c1999fda2",
+        "size_in_bytes": 17607
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.h",
+        "path_type": "hardlink",
+        "sha256": "3292d38db59e05eb40befe875105716fb94157e2ba849a9c5b2f860225aa28d9",
+        "sha256_in_prefix": "3292d38db59e05eb40befe875105716fb94157e2ba849a9c5b2f860225aa28d9",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/include/mpi4py/mpi4py.i",
+        "path_type": "hardlink",
+        "sha256": "d5191b4c498d5d1f19c36245b198a0220ad33d523329dfba3b21c1c914048cdf",
+        "sha256_in_prefix": "d5191b4c498d5d1f19c36245b198a0220ad33d523329dfba3b21c1c914048cdf",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/lib-pmpi/libmpe.so",
+        "path_type": "hardlink",
+        "sha256": "e2defa9e327a0f721c071e25f2bb4ddf5bbb667db65065cf428ee4c0476aa5ed",
+        "sha256_in_prefix": "e2defa9e327a0f721c071e25f2bb4ddf5bbb667db65065cf428ee4c0476aa5ed",
+        "size_in_bytes": 15112
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt-hyb.so",
+        "path_type": "hardlink",
+        "sha256": "345c946bcc217862808cfc72e4bd4bad7bfdf895921150ad96905392db41b538",
+        "sha256_in_prefix": "345c946bcc217862808cfc72e4bd4bad7bfdf895921150ad96905392db41b538",
+        "size_in_bytes": 15120
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt-mpi.so",
+        "path_type": "hardlink",
+        "sha256": "f32e7a2ff88bf6cf0dfeae6dbd858797b23390bad97056c2b6578176511ba11a",
+        "sha256_in_prefix": "f32e7a2ff88bf6cf0dfeae6dbd858797b23390bad97056c2b6578176511ba11a",
+        "size_in_bytes": 15120
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/lib-pmpi/libvt.so",
+        "path_type": "hardlink",
+        "sha256": "809e47b3313f3ba6c8e15871995858c4e5e3f315af092b1f2b83da702ed6f4b5",
+        "sha256_in_prefix": "809e47b3313f3ba6c8e15871995858c4e5e3f315af092b1f2b83da702ed6f4b5",
+        "size_in_bytes": 15104
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/libmpi.pxd",
+        "path_type": "hardlink",
+        "sha256": "0e2294a5e4154484b366d336c258abfd3bab619e0caad1f67d9dc5be4080efe0",
+        "sha256_in_prefix": "0e2294a5e4154484b366d336c258abfd3bab619e0caad1f67d9dc5be4080efe0",
+        "size_in_bytes": 44966
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/mpi.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpi4py_1667459939419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "e94e5ca0a57ad8f0c2b9c4f105d8d2509eee8b227e4bcabd7224ab7fe8f3f2a9",
+        "sha256_in_prefix": "4c2b3752af1f495c533d9e71c1695aff64df88cfddc36d9492116f9ec0cf28fd",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/py.typed",
+        "path_type": "hardlink",
+        "sha256": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
+        "sha256_in_prefix": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/run.py",
+        "path_type": "hardlink",
+        "sha256": "efbd24598bc56b750b573487d7eab6fd4d37004be7e1c0fb6aec8f7011fd57f7",
+        "sha256_in_prefix": "efbd24598bc56b750b573487d7eab6fd4d37004be7e1c0fb6aec8f7011fd57f7",
+        "size_in_bytes": 7689
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/run.pyi",
+        "path_type": "hardlink",
+        "sha256": "23c90bc6e77d48f1cef9d1e35f1642ab793426cb8b4f4463ce78ca9230f5010f",
+        "sha256_in_prefix": "23c90bc6e77d48f1cef9d1e35f1642ab793426cb8b4f4463ce78ca9230f5010f",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3f4d36b8d98608c1b7db5d247e7e9b114449be78e6039d619e3bd65dcbaa2ce3",
+        "sha256_in_prefix": "3f4d36b8d98608c1b7db5d247e7e9b114449be78e6039d619e3bd65dcbaa2ce3",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "f7ff302fd49cbfcfc2b3c1c9c891c6bf1d6fc1712bb2ebe5b00a8d64b709411d",
+        "sha256_in_prefix": "f7ff302fd49cbfcfc2b3c1c9c891c6bf1d6fc1712bb2ebe5b00a8d64b709411d",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b26c3172fa87e91856baddb25f99b61c3d05f764e4a66c808aeef5498ac4eca0",
+        "sha256_in_prefix": "b26c3172fa87e91856baddb25f99b61c3d05f764e4a66c808aeef5498ac4eca0",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/__pycache__/dtlib.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "abbc045f613c9d08a3424f3ab7499cf90feda825056089b2e75173f8592bdb41",
+        "sha256_in_prefix": "abbc045f613c9d08a3424f3ab7499cf90feda825056089b2e75173f8592bdb41",
+        "size_in_bytes": 7330
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/__pycache__/pkl5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2e2dbf888876132e0464095c397e7963a72a25c32e2345cf4f7fb61b71963a6",
+        "sha256_in_prefix": "b2e2dbf888876132e0464095c397e7963a72a25c32e2345cf4f7fb61b71963a6",
+        "size_in_bytes": 19365
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/dtlib.py",
+        "path_type": "hardlink",
+        "sha256": "98e4d9207552b413e57c4d13d29cb501124502978ac179c0876e2bc688c90478",
+        "sha256_in_prefix": "98e4d9207552b413e57c4d13d29cb501124502978ac179c0876e2bc688c90478",
+        "size_in_bytes": 11155
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/dtlib.pyi",
+        "path_type": "hardlink",
+        "sha256": "886433ef00b1f3acdde4c0a092a5c28cababd3758f1dab91b89873756aa6b467",
+        "sha256_in_prefix": "886433ef00b1f3acdde4c0a092a5c28cababd3758f1dab91b89873756aa6b467",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/pkl5.py",
+        "path_type": "hardlink",
+        "sha256": "a53db6bdd798b47efa5bab68455830423e2f5ad3d9e66ac8519a4c625935f594",
+        "sha256_in_prefix": "a53db6bdd798b47efa5bab68455830423e2f5ad3d9e66ac8519a4c625935f594",
+        "size_in_bytes": 18341
+      },
+      {
+        "_path": "lib/python3.10/site-packages/mpi4py/util/pkl5.pyi",
+        "path_type": "hardlink",
+        "sha256": "2848f59987d108b1edde15ef69fe42978f367f8fe5358ef285ab745648b11550",
+        "sha256_in_prefix": "2848f59987d108b1edde15ef69fe42978f367f8fe5358ef285ab745648b11550",
+        "size_in_bytes": 4437
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mpi4py",
+  "sha256": "1074014c49b0d3c28565c95255b892e2667f108890816628ac0f95c69bec14ab",
+  "size": 638329,
+  "subdir": "linux-64",
+  "timestamp": 1667460091789,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpi4py-3.1.4-py310h6075a6b_0.tar.bz2",
+  "version": "3.1.4"
+}

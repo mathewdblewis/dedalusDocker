@@ -1,0 +1,96 @@
+==> 2023-01-04 02:47:10 <==
+# cmd: /opt/conda/bin/conda create -n dedalus2 -y -q
+# conda version: 22.11.1
+==> 2023-01-04 02:47:35 <==
+# cmd: /opt/conda/bin/conda install -n dedalus2 -y -q python=3.10 pip wheel setuptools cython
+# conda version: 22.11.1
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
++conda-forge/linux-64::ca-certificates-2022.12.7-ha878542_0
++conda-forge/linux-64::cython-0.29.32-py310hd8f1fbe_1
++conda-forge/linux-64::ld_impl_linux-64-2.39-hcc3a1bd_1
++conda-forge/linux-64::libffi-3.4.2-h7f98852_5
++conda-forge/linux-64::libgcc-ng-12.2.0-h65d4601_19
++conda-forge/linux-64::libgomp-12.2.0-h65d4601_19
++conda-forge/linux-64::libnsl-2.0.0-h7f98852_0
++conda-forge/linux-64::libsqlite-3.40.0-h753d276_0
++conda-forge/linux-64::libstdcxx-ng-12.2.0-h46fd767_19
++conda-forge/linux-64::libuuid-2.32.1-h7f98852_1000
++conda-forge/linux-64::libzlib-1.2.13-h166bdaf_4
++conda-forge/linux-64::ncurses-6.3-h27087fc_1
++conda-forge/linux-64::openssl-3.0.7-h0b41bf4_1
++conda-forge/linux-64::python-3.10.8-h4a9ceb5_0_cpython
++conda-forge/linux-64::python_abi-3.10-3_cp310
++conda-forge/linux-64::readline-8.1.2-h0f457ee_0
++conda-forge/linux-64::tk-8.6.12-h27826a3_0
++conda-forge/linux-64::xz-5.2.6-h166bdaf_0
++conda-forge/noarch::pip-22.3.1-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-65.6.3-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2022g-h191b570_0
++conda-forge/noarch::wheel-0.38.4-pyhd8ed1ab_0
+# update specs: ['python=3.10', 'pip', 'cython', 'setuptools', 'wheel']
+==> 2023-01-04 02:47:52 <==
+# cmd: /opt/conda/bin/conda install -n dedalus2 -y -q libblas=*=*openblas numpy scipy
+# conda version: 22.11.1
++conda-forge/linux-64::libblas-3.9.0-16_linux64_openblas
++conda-forge/linux-64::libcblas-3.9.0-16_linux64_openblas
++conda-forge/linux-64::libgfortran-ng-12.2.0-h69a702a_19
++conda-forge/linux-64::libgfortran5-12.2.0-h337968e_19
++conda-forge/linux-64::liblapack-3.9.0-16_linux64_openblas
++conda-forge/linux-64::libopenblas-0.3.21-pthreads_h78a6416_3
++conda-forge/linux-64::numpy-1.24.1-py310h08bbf29_0
++conda-forge/linux-64::scipy-1.9.3-py310hdfbd76f_2
+# update specs: ['scipy', 'numpy', 'libblas[build=*openblas]']
+==> 2023-01-04 02:50:28 <==
+# cmd: /opt/conda/bin/conda install -n dedalus2 -y -q compilers openmpi openmpi-mpicc mpi4py
+# conda version: 22.11.1
++conda-forge/linux-64::binutils-2.39-hdd6e379_1
++conda-forge/linux-64::binutils_impl_linux-64-2.39-he00db2b_1
++conda-forge/linux-64::binutils_linux-64-2.39-h5fc0e48_11
++conda-forge/linux-64::c-compiler-1.5.1-h166bdaf_0
++conda-forge/linux-64::compilers-1.5.1-ha770c72_0
++conda-forge/linux-64::cxx-compiler-1.5.1-h924138e_0
++conda-forge/linux-64::fortran-compiler-1.5.1-h2a4ca65_0
++conda-forge/linux-64::gcc-10.4.0-hb92f740_11
++conda-forge/linux-64::gcc_impl_linux-64-10.4.0-h5231bdf_19
++conda-forge/linux-64::gcc_linux-64-10.4.0-h9215b83_11
++conda-forge/linux-64::gfortran-10.4.0-h0c96582_11
++conda-forge/linux-64::gfortran_impl_linux-64-10.4.0-h7d168d2_19
++conda-forge/linux-64::gfortran_linux-64-10.4.0-h69d5af5_11
++conda-forge/linux-64::gxx-10.4.0-hb92f740_11
++conda-forge/linux-64::gxx_impl_linux-64-10.4.0-h5231bdf_19
++conda-forge/linux-64::gxx_linux-64-10.4.0-h6e491c6_11
++conda-forge/linux-64::libgcc-devel_linux-64-10.4.0-hd38fd1e_19
++conda-forge/linux-64::libsanitizer-10.4.0-h5246dfb_19
++conda-forge/linux-64::libstdcxx-devel_linux-64-10.4.0-hd38fd1e_19
++conda-forge/linux-64::mpi-1.0-openmpi
++conda-forge/linux-64::mpi4py-3.1.4-py310h6075a6b_0
++conda-forge/linux-64::openmpi-4.1.4-ha1ae619_102
++conda-forge/linux-64::openmpi-mpicc-4.1.4-h166bdaf_102
++conda-forge/linux-64::zlib-1.2.13-h166bdaf_4
++conda-forge/noarch::kernel-headers_linux-64-2.6.32-he073ed8_15
++conda-forge/noarch::sysroot_linux-64-2.12-he073ed8_15
+# update specs: ['openmpi', 'compilers', 'openmpi-mpicc', 'mpi4py']
+==> 2023-01-04 02:50:38 <==
+# cmd: /opt/conda/bin/conda install -n dedalus2 -y -q --no-deps fftw=*=*openmpi*
+# conda version: 22.11.1
++conda-forge/linux-64::fftw-3.3.10-mpi_openmpi_hdeb57f9_6
+# update specs: ['fftw[build=*openmpi*]']
+==> 2023-01-04 02:50:53 <==
+# cmd: /opt/conda/bin/conda install -n dedalus2 -y -q hdf5=*=mpi* h5py=*=mpi*
+# conda version: 22.11.1
++conda-forge/linux-64::c-ares-1.18.1-h7f98852_0
++conda-forge/linux-64::h5py-3.7.0-mpi_openmpi_py310h93bee3e_2
++conda-forge/linux-64::hdf5-1.12.2-mpi_openmpi_h41b9b70_1
++conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0
++conda-forge/linux-64::krb5-1.20.1-h81ceb04_0
++conda-forge/linux-64::libaec-1.0.6-h9c3ff4c_0
++conda-forge/linux-64::libcurl-7.87.0-hdc1c0ab_0
++conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
++conda-forge/linux-64::libev-4.33-h516909a_1
++conda-forge/linux-64::libnghttp2-1.51.0-hff17c54_0
++conda-forge/linux-64::libssh2-1.10.0-hf14f497_3
++conda-forge/noarch::cached-property-1.5.2-hd8ed1ab_1
++conda-forge/noarch::cached_property-1.5.2-pyha770c72_1
+# update specs: ['hdf5[build=mpi*]', 'h5py[build=mpi*]']

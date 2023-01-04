@@ -1,0 +1,36 @@
+{
+  "build": "h2a4ca65_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils",
+    "c-compiler 1.5.1 h166bdaf_0",
+    "gfortran",
+    "gfortran_linux-64 10.*"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/fortran-compiler-1.5.1-h2a4ca65_0",
+  "features": "",
+  "files": [],
+  "fn": "fortran-compiler-1.5.1-h2a4ca65_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/fortran-compiler-1.5.1-h2a4ca65_0",
+    "type": 1
+  },
+  "md5": "4851e61ed9676cee9e50136f2a373302",
+  "name": "fortran-compiler",
+  "package_tarball_full_path": "/opt/conda/pkgs/fortran-compiler-1.5.1-h2a4ca65_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "75a90f2d991cc0c49631e8b933b07a9209f62df446686b499de14aa276f220b4",
+  "size": 5408,
+  "subdir": "linux-64",
+  "timestamp": 1666132089690,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fortran-compiler-1.5.1-h2a4ca65_0.tar.bz2",
+  "version": "1.5.1"
+}

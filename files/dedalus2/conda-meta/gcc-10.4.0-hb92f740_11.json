@@ -1,0 +1,99 @@
+{
+  "build": "hb92f740_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc_impl_linux-64 10.4.0.*"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/gcc-10.4.0-hb92f740_11",
+  "features": "",
+  "files": [
+    "bin/cc",
+    "bin/cpp",
+    "bin/gcc",
+    "bin/gcc-ar",
+    "bin/gcc-nm",
+    "bin/gcc-ranlib",
+    "bin/gcov",
+    "bin/gcov-dump",
+    "bin/gcov-tool"
+  ],
+  "fn": "gcc-10.4.0-hb92f740_11.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/gcc-10.4.0-hb92f740_11",
+    "type": 1
+  },
+  "md5": "492fd2006232e01ddcf85994f3d9bdac",
+  "name": "gcc",
+  "package_tarball_full_path": "/opt/conda/pkgs/gcc-10.4.0-hb92f740_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cc",
+        "path_type": "softlink",
+        "sha256": "be3fdb420404b606c09378aa43ab5b40738fb16f1f8f9e4d0db9102d0bd14c93",
+        "size_in_bytes": 1161616
+      },
+      {
+        "_path": "bin/cpp",
+        "path_type": "softlink",
+        "sha256": "a65bd0762c007867d640a2c8a7a67b1a1eec70958f446804f12347d83c624bce",
+        "size_in_bytes": 1161616
+      },
+      {
+        "_path": "bin/gcc",
+        "path_type": "softlink",
+        "sha256": "be3fdb420404b606c09378aa43ab5b40738fb16f1f8f9e4d0db9102d0bd14c93",
+        "size_in_bytes": 1161616
+      },
+      {
+        "_path": "bin/gcc-ar",
+        "path_type": "softlink",
+        "sha256": "2ebbc1347673bb4b1e2fe23bc50fa8a79ff376c0c0c0229da5a16dc45635ea1c",
+        "size_in_bytes": 35304
+      },
+      {
+        "_path": "bin/gcc-nm",
+        "path_type": "softlink",
+        "sha256": "cbb74aa9b782fe983256b41c22706b689ed3ab37d86346c309ea80b82f5274c8",
+        "size_in_bytes": 35304
+      },
+      {
+        "_path": "bin/gcc-ranlib",
+        "path_type": "softlink",
+        "sha256": "939cc5e1888b0f47deb9300727af7faa6fc1db49563abbe928ced3ec5db1dfeb",
+        "size_in_bytes": 35304
+      },
+      {
+        "_path": "bin/gcov",
+        "path_type": "softlink",
+        "sha256": "4922d501a3819ffa13a89eb8a275ab8f314b0f3344770f37318707d4c4e86527",
+        "size_in_bytes": 720528
+      },
+      {
+        "_path": "bin/gcov-dump",
+        "path_type": "softlink",
+        "sha256": "a782776cc9995afaa087b223c386bc1358b4ab34f598e2f1ce9e5b2338d80f9b",
+        "size_in_bytes": 523816
+      },
+      {
+        "_path": "bin/gcov-tool",
+        "path_type": "softlink",
+        "sha256": "9b24409a40cef43e4ef01d4f4af4834862231e9f000c547a75a273bc0a30f6eb",
+        "size_in_bytes": 548456
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "12e53c532b1ec30bf3abbdcf5bf70e4556744c7e3a592fea564e71dc4554161d",
+  "size": 25043,
+  "subdir": "linux-64",
+  "timestamp": 1666044122901,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gcc-10.4.0-hb92f740_11.tar.bz2",
+  "version": "10.4.0"
+}

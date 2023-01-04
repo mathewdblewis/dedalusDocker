@@ -1,0 +1,35 @@
+{
+  "build": "h166bdaf_102",
+  "build_number": 102,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc_linux-64 10.*",
+    "openmpi 4.1.4 ha1ae619_102"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/openmpi-mpicc-4.1.4-h166bdaf_102",
+  "features": "",
+  "files": [],
+  "fn": "openmpi-mpicc-4.1.4-h166bdaf_102.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/openmpi-mpicc-4.1.4-h166bdaf_102",
+    "type": 1
+  },
+  "md5": "d7b9ebecebd8d824db9f7834eacc6dd8",
+  "name": "openmpi-mpicc",
+  "package_tarball_full_path": "/opt/conda/pkgs/openmpi-mpicc-4.1.4-h166bdaf_102.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "openmpi-mpicc",
+  "sha256": "157fc47ed26d20de7f3528b6931e6530548a47837c5d6bb8b76e3b0a88993a3d",
+  "size": 10877,
+  "subdir": "linux-64",
+  "timestamp": 1670003712635,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openmpi-mpicc-4.1.4-h166bdaf_102.conda",
+  "version": "4.1.4"
+}

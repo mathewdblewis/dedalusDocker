@@ -1,0 +1,51 @@
+{
+  "build": "hb92f740_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc 10.4.0.*",
+    "gxx_impl_linux-64 10.4.0.*"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/gxx-10.4.0-hb92f740_11",
+  "features": "",
+  "files": [
+    "bin/c++",
+    "bin/g++"
+  ],
+  "fn": "gxx-10.4.0-hb92f740_11.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/gxx-10.4.0-hb92f740_11",
+    "type": 1
+  },
+  "md5": "a286961cd68f7d36f4ece4578042567c",
+  "name": "gxx",
+  "package_tarball_full_path": "/opt/conda/pkgs/gxx-10.4.0-hb92f740_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/c++",
+        "path_type": "softlink",
+        "sha256": "f361d114b2fdb0f766a6a67b4011191abd122783dce9dcb6d703cb402266f425",
+        "size_in_bytes": 1161616
+      },
+      {
+        "_path": "bin/g++",
+        "path_type": "softlink",
+        "sha256": "f361d114b2fdb0f766a6a67b4011191abd122783dce9dcb6d703cb402266f425",
+        "size_in_bytes": 1161616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6298f14c5b3a125ae76d5bfbdbe92c5173f45315c703d608fdeb3552e13fca04",
+  "size": 24488,
+  "subdir": "linux-64",
+  "timestamp": 1666044302916,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx-10.4.0-hb92f740_11.tar.bz2",
+  "version": "10.4.0"
+}

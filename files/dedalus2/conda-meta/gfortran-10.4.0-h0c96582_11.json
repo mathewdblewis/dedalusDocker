@@ -1,0 +1,45 @@
+{
+  "build": "h0c96582_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc 10.4.0.*",
+    "gcc_impl_linux-64 10.4.0.*",
+    "gfortran_impl_linux-64 10.4.0.*"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/gfortran-10.4.0-h0c96582_11",
+  "features": "",
+  "files": [
+    "bin/gfortran"
+  ],
+  "fn": "gfortran-10.4.0-h0c96582_11.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/gfortran-10.4.0-h0c96582_11",
+    "type": 1
+  },
+  "md5": "9a22e19ae1d372f19a6514a4442f7917",
+  "name": "gfortran",
+  "package_tarball_full_path": "/opt/conda/pkgs/gfortran-10.4.0-h0c96582_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gfortran",
+        "path_type": "softlink",
+        "sha256": "f1095ee017ed0e6ad24b04b1f25a32a6850f6be9ec9637adc00752e337374bf4",
+        "size_in_bytes": 1161616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7abaf5ab0e85450f7b29f311a67bcd33fd3840eb98551775889e54fa7973af95",
+  "size": 24451,
+  "subdir": "linux-64",
+  "timestamp": 1666044291506,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gfortran-10.4.0-h0c96582_11.tar.bz2",
+  "version": "10.4.0"
+}

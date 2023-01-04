@@ -1,0 +1,55 @@
+{
+  "build": "h6e491c6_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils_linux-64 2.39 h5fc0e48_11",
+    "gcc_linux-64 10.4.0 h9215b83_11",
+    "gxx_impl_linux-64 10.4.0.*",
+    "sysroot_linux-64"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/gxx_linux-64-10.4.0-h6e491c6_11",
+  "features": "",
+  "files": [
+    "etc/conda/activate.d/activate-gxx_linux-64.sh",
+    "etc/conda/deactivate.d/deactivate-gxx_linux-64.sh"
+  ],
+  "fn": "gxx_linux-64-10.4.0-h6e491c6_11.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/gxx_linux-64-10.4.0-h6e491c6_11",
+    "type": 1
+  },
+  "md5": "842f0029666e37e929cbd1e7614f5862",
+  "name": "gxx_linux-64",
+  "package_tarball_full_path": "/opt/conda/pkgs/gxx_linux-64-10.4.0-h6e491c6_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-gxx_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "98eff1174c758af19e18689e24b8cdc8792e2da2f76b61071c9eef112031b545",
+        "sha256_in_prefix": "98eff1174c758af19e18689e24b8cdc8792e2da2f76b61071c9eef112031b545",
+        "size_in_bytes": 5185
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-gxx_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "10adbdbc840a63cffe46eb1b824265b0950f8d1d9c17f6ae0cced497bd5885dc",
+        "sha256_in_prefix": "10adbdbc840a63cffe46eb1b824265b0950f8d1d9c17f6ae0cced497bd5885dc",
+        "size_in_bytes": 5187
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5d1b580e7cf9d9a738a1bda1d32e4aaedc8625e0502fd6d41ececc9c8f88cd9d",
+  "size": 25090,
+  "subdir": "linux-64",
+  "timestamp": 1666044320456,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-64-10.4.0-h6e491c6_11.tar.bz2",
+  "version": "10.4.0"
+}
