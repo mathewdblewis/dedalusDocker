@@ -1,0 +1,19 @@
+name: run the image
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: run the docker image
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: put files into folder
+        run: mkdir parts; mv 1* parts; mv 2 parts; mv 3 parts; mv 4 parts; mv 5 parts; mv 6 parts; mv 7 parts; mv 8 parts; mv 9 parts; mv 0 parts;
+      - name: push
+        run: git add parts; git config --global user.email 'x'; git config --global user.name 'x'; git commit -m '.'; git push origin main
+      - name: assemble the tar file
+        run: python partition.py a 25.6 parts folder.tar
+        
+        
