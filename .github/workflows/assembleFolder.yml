@@ -1,4 +1,4 @@
-name: run the image
+name: assemble the folder
 on:
   workflow_dispatch:
 
