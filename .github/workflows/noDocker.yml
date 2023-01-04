@@ -1,10 +1,10 @@
-name: run the docker image
+name: run without docker
 on:
   workflow_dispatch:
 
 jobs:
   my-job:
-    name: run the docker image
+    name: run the code
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
