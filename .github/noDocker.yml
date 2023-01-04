@@ -1,0 +1,13 @@
+name: run the docker image
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: run the docker image
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: do we have conda?
+        run: which conda
