@@ -11,9 +11,7 @@ jobs:
         uses: actions/checkout@v2.3.4
       - name: put dedalus2 in the right spot
         run: mv files/dedalus2 /usr/share/miniconda/envs
-      - name: do some stuff
-        run: conda run -n base /bin/bash -c
       - name: try starting the dedalus environment
-        run: conda activate dedalus2
+        run: source activate dedalus2
       - name: try running the python code
         run: cd files; python3 search.py
