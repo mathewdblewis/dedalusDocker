@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v2.3.4
+      - name: activate conda
+        run: conda activate
       - name: run the install script        
         run:  source installDedalus.sh
 #       - name: put dedalus2 in the right spot
