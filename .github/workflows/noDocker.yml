@@ -12,6 +12,6 @@ jobs:
       - name: put dedalus2 in the right spot
         run: mv files/dedalus2 /usr/share/miniconda/envs
       - name: try starting the dedalus environment
-        run: source activate dedalus2
+        run: conda activate dedalus2
       - name: try running the python code
         run: cd files; python3 search.py
